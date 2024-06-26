@@ -1,0 +1,20 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-list > div {
+  margin: 10px;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+  height: auto;
+}
